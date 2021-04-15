@@ -1,0 +1,106 @@
+{
+  "title": "OKIT OCI Visualiser Json",
+  "description": "# Description\n__Created 2021-4-15 20:48:4__\n\n--------------------------------------\n\n",
+  "created": "2021-4-15 20:48:4",
+  "updated": "2021-4-15 20:51:46",
+  "okit_version": "0.20.0",
+  "autonomous_databases": [],
+  "block_storage_volumes": [],
+  "compartments": [
+    {
+      "id": "okit.compartment.14e865f8-a5f5-4863-b47b-e489878c1ce1",
+      "compartment_id": null,
+      "display_name": "okit-comp001",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {},
+      "description": "okit-comp001"
+    }
+  ],
+  "customer_premise_equipments": [],
+  "database_systems": [],
+  "dynamic_routing_gateways": [],
+  "fast_connects": [],
+  "file_storage_systems": [],
+  "instances": [
+    {
+      "id": "okit.instance.d0f8e094-dba0-4895-a92a-f827c3224164",
+      "compartment_id": "okit.compartment.14e865f8-a5f5-4863-b47b-e489878c1ce1",
+      "display_name": "okit-in001",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {},
+      "availability_domain": "1",
+      "shape": "VM.Standard.E3.Flex",
+      "count": 1,
+      "fault_domain": "",
+      "agent_config": {
+        "is_monitoring_disabled": false,
+        "is_management_disabled": false
+      },
+      "vnics": [
+        {
+          "subnet_id": "",
+          "assign_public_ip": true,
+          "nsg_ids": [],
+          "skip_source_dest_check": false,
+          "hostname_label": "okit-in0010"
+        }
+      ],
+      "source_details": {
+        "os": "Oracle Linux",
+        "version": "8",
+        "boot_volume_size_in_gbs": "50",
+        "source_type": "image"
+      },
+      "metadata": {
+        "ssh_authorized_keys": "",
+        "user_data": ""
+      },
+      "shape_config": {
+        "memory_in_gbs": 16,
+        "ocpus": 1
+      },
+      "block_storage_volume_ids": [],
+      "object_storage_bucket_ids": [],
+      "autonomous_database_ids": [],
+      "preserve_boot_volume": false,
+      "is_pv_encryption_in_transit_enabled": false,
+      "primary_vnic": {
+        "subnet_id": "",
+        "assign_public_ip": true,
+        "nsg_ids": [],
+        "skip_source_dest_check": false,
+        "hostname_label": "okit-in0010"
+      }
+    }
+  ],
+  "instance_pools": [],
+  "internet_gateways": [],
+  "ipsec_connections": [],
+  "load_balancers": [],
+  "local_peering_gateways": [],
+  "mysql_database_systems": [],
+  "nat_gateways": [],
+  "network_security_groups": [],
+  "object_storage_buckets": [],
+  "oke_clusters": [],
+  "remote_peering_connections": [
+    {
+      "id": "okit.remotepeeringconnection.a75184e0-e4e7-4059-a900-c2e016133b8b",
+      "compartment_id": "okit.compartment.14e865f8-a5f5-4863-b47b-e489878c1ce1",
+      "display_name": "okit-rpc001",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {},
+      "drg_id": "",
+      "peer_id": "",
+      "peer_region_name": ""
+    }
+  ],
+  "route_tables": [],
+  "security_lists": [],
+  "service_gateways": [],
+  "subnets": [],
+  "virtual_cloud_networks": []
+}
